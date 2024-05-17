@@ -4,9 +4,11 @@
 - **Scream**: Use this fuction when you want to show something in the terminal: Scream "Hello fluffy world!". Remember to use quotes to show text.
 - **Wait**: This function pauses the execution of the code for the amount of time established, before executing the code under it: Wait 2. This function only admits whole numbers, not decimal.
 - **Hurray_End**: Show the Hit! (a97000), use it when you want to check your code runs okay.
+- **7u7**: A one line comment.
 
 ## Alerts.
 - **"Hit! (a97000): The code is executed successfully!"** - This alert means that the code was executed without errors.
+- **"Hit! (a97001): The file is not a .furro file!"** - This alert means that the file you are triying to execute with Furro Interpreter, its not a furro file (exaple.furro).
 
 ## Errors.
 - **"Damn! (x0000): What the hell means 'A_worng_fuction' ?"** - This error appears if you write a function badly or if you wrote a function that does not exist in language. 

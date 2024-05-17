@@ -2,12 +2,14 @@ import time
 
 def read_file(nombre_archivo):
     if not nombre_archivo.endswith('.furro'):
-        raise ValueError("El archivo debe tener la extensión .furro")
+        raise ValueError("Hit! (a97001): The file is not a .furro file!")
 
     with open(nombre_archivo, 'r') as archivo:
         lineas = archivo.readlines()
 
     for linea in lineas:
+        if linea.strip().startswith('7u7'):
+            continue
         show_res(linea.strip())
 
 def print_e(message):
