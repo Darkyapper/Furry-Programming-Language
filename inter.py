@@ -10,21 +10,29 @@ def read_file(nombre_archivo):
     for linea in lineas:
         show_res(linea.strip())
 
+def print_e(message):
+    print("\033[91m" + message + "\033[0m")
+
 def show_res(linea):
     if linea.startswith('Scream'):
         if '"' in linea:
             if linea.count('"') != 2:
-                print("Damn! (x0001): Are you trying to scream in the wrong way!")
+                print_e("Damn! (x0001): Are you trying to scream in the wrong way!")
                 return
             texto = linea.split('"')[1]
             print(texto)
         else:
-            print("Damn! (x0001): Are you trying to scream in the wrong way!")
+            print_e("Damn! (x0001): Are you trying to scream in the wrong way!")
     elif linea.startswith('Wait'):
-        segundos = int(linea[len('Wait '):])
+        tiempo_str = linea[len('Wait '):]
+        try:
+            segundos = int(tiempo_str)
+        except ValueError:
+            print_e("Damn! (x0002): You can't wait fractionally or decimal, little fox.")
+            return
         time.sleep(segundos)
     else:
-        print(f"Damn! (x0000): What the hell means '{linea}' ?")
+        print_e(f"Damn! (x0000): What the hell means '{linea}' ?")
 
 
 # Ejemplo de uso
