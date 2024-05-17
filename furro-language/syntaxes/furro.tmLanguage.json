@@ -1,0 +1,27 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "furro",
+	"scopeName": "source.furro",
+  "patterns": [
+    {
+      "match": "\\b(Scream|Wait)\\b",
+      "name": "keyword.control.furro"
+    },
+    {
+      "match": "\"[^\"]*\"",
+      "name": "string.quoted.double.furro"
+    },
+    {
+      "match": "\\b\\d+\\b",
+      "name": "constant.numeric.furro"
+    },
+    {
+      "match": "\\b(owo|ewe)\\b",
+      "name": "keyword.control.furro"
+    },
+    {
+      "match": "\\b\\d+\\b",
+      "name": "constant.numeric.furro"
+    }
+  ]
+}

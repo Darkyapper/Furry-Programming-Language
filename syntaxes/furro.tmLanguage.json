@@ -1,0 +1,17 @@
+{
+    "scopeName": "source.furro",
+    "patterns": [
+        {
+            "match": "\\b(owo|ewe)\\b",
+            "name": "keyword.control.furro"
+        },
+        {
+            "match": "\"[^\"]*\"",
+            "name": "string.quoted.double.furro"
+        },
+        {
+            "match": "\\b\\d+\\b",
+            "name": "constant.numeric.furro"
+        }
+    ]
+}

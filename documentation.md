@@ -1,0 +1,3 @@
+# Furry Int Programming
+
+## Errors:

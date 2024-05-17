@@ -1,0 +1,25 @@
+{
+  "name": "furro-language",
+  "displayName": "furro-language-support",
+  "description": "To use ine furro files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "furro",
+      "aliases": ["Furro", "furro"],
+      "extensions": [".furro"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "furro",
+      "scopeName": "source.furro",
+      "path": "./syntaxes/furro.tmLanguage.json"
+    }]
+  }
+}
