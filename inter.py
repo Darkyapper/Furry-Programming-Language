@@ -13,6 +13,9 @@ def read_file(nombre_archivo):
 def print_e(message):
     print("\033[91m" + message + "\033[0m")
 
+def print_a(message):
+    print("\033[93m" + message + "\033[0m")
+
 def show_res(linea):
     if linea.startswith('Scream'):
         if '"' in linea:
@@ -31,6 +34,9 @@ def show_res(linea):
             print_e("Damn! (x0002): You can't wait fractionally or decimal, little fox.")
             return
         time.sleep(segundos)
+    elif linea.startswith('Hurray_End'):
+        print_a("Hit! (a97000): The code is executed successfully!")
+
     else:
         print_e(f"Damn! (x0000): What the hell means '{linea}' ?")
 

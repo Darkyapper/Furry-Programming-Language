@@ -12,11 +12,15 @@
       "name": "string.quoted.double.furro"
     },
     {
+      "match": "\\b(Hurray_End)\\b",
+      "name": "support.function.furro"
+    },
+    {
       "match": "\\b\\d+\\b",
       "name": "constant.numeric.furro"
     },
     {
-      "match": "\\b(owo|ewe)\\b",
+      "match": "\\b(Scream|Wait)\\b",
       "name": "keyword.control.furro"
     },
     {
