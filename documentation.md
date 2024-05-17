@@ -1,8 +1,8 @@
 # Furry Programming Language
 
 ## Fuctions
-- Scream: Use this fuction when you want to show something in the terminal: Scream "Hello fluffy world!". Remember to use quotes to show text.
-- Wait: This function pauses the execution of the code for the amount of time established, before executing the code under it: Wait 2. This function only admits whole numbers, not decimal.
+- **Scream**: Use this fuction when you want to show something in the terminal: Scream "Hello fluffy world!". Remember to use quotes to show text.
+- **Wait**: This function pauses the execution of the code for the amount of time established, before executing the code under it: Wait 2. This function only admits whole numbers, not decimal.
 
 ## Errors documentation.
 - **"Damn! (x0000): What the hell means 'A_worng_fuction' ?"** - This error appears if you write a function badly or if you wrote a function that does not exist in language. 
