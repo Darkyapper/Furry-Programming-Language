@@ -5,5 +5,5 @@
 - Wait: This function pauses the execution of the code for the amount of time established, before executing the code under it: Wait 2. This function only admits whole numbers, not decimal.
 
 ## Errors documentation.
-- "Damn! (x0000): What the hell means 'A_worng_fuction' ?" - This error appears if you write a function badly or if you wrote a function that does not exist in language. 
-- "Damn! (x0001): Are you trying to scream in the wrong way!" - It means, you are writing a wrong syntax of the function Scream, check you are using "" like this: Scream "Hello fluffy world!".
+- **"Damn! (x0000): What the hell means 'A_worng_fuction' ?"** - This error appears if you write a function badly or if you wrote a function that does not exist in language. 
+- **"Damn! (x0001): Are you trying to scream in the wrong way!"** - It means, you are writing a wrong syntax of the function Scream, check you are using "" like this: Scream "Hello fluffy world!".
