@@ -42,45 +42,45 @@ def show_res(linea):
     elif linea.startswith('Protogen.Plus'):
         args = linea.split('(')[1].split(')')[0].split(',')
         if len(args) != 2:
-            print_e("Error: Sintaxis incorrecta para el comando Protogen.Plus")
+            print_e("Damn! (x0004): The protogen can't understand, Why didn't you put the numbers.")
             return
         try:
             resultado = float(args[0].strip()) + float(args[1].strip())
             print(resultado)
         except ValueError:
-            print_e("Error: Los argumentos de Protogen.Plus deben ser números enteros o decimales.")
+            print_e("Damn! (x0003): The protogen can't understand, what do you want to do for maths operations.")
     elif linea.startswith('Protogen.Minus'):
         args = linea.split('(')[1].split(')')[0].split(',')
         if len(args) != 2:
-            print_e("Error: Sintaxis incorrecta para el comando Protogen.Minus")
+            print_e("Damn! (x0004): The protogen can't understand, Why didn't you put the numbers.")
             return
         try:
             resultado = float(args[0].strip()) - float(args[1].strip())
             print(resultado)
         except ValueError:
-            print_e("Error: Los argumentos de Protogen.Minus deben ser números enteros o decimales.")
+            print_e("Damn! (x0003): The protogen can't understand, what do you want to do for maths operations.")
     elif linea.startswith('Protogen.DivBy'):
         args = linea.split('(')[1].split(')')[0].split(',')
         if len(args) != 2:
-            print_e("Error: Sintaxis incorrecta para el comando Protogen.DiBy")
+            print_e("Damn! (x0004): The protogen can't understand, Why didn't you put the numbers.")
             return
         try:
             resultado = float(args[0].strip()) / float(args[1].strip())
             print(resultado)
         except ValueError:
-            print_e("Error: Los argumentos de Protogen.DiBy deben ser números enteros o decimales.")
+            print_e("Damn! (x0003): The protogen can't understand, what do you want to do for maths operations.")
         except ZeroDivisionError:
-            print_e("Error: No se puede dividir entre cero")
+            print_e("Damn! (x0004): Really? You really ask, why can't do that division?! fck!")
     elif linea.startswith('Protogen.Times'):
         args = linea.split('(')[1].split(')')[0].split(',')
         if len(args) != 2:
-            print_e("Error: Sintaxis incorrecta para el comando Protogen.Times")
+            print_e("Damn! (x0004): The protogen can't understand, Why didn't you put the numbers.")
             return
         try:
             resultado = float(args[0].strip()) * float(args[1].strip())
             print(resultado)
         except ValueError:
-            print_e("Error: Los argumentos de Protogen.Times deben ser números enteros o decimales.")
+            print_e("Damn! (x0003): The protogen can't understand, what do you want to do for maths operations.")
 
     else:
         print_e(f"Damn! (x0000): What the hell means '{linea}' ?")
