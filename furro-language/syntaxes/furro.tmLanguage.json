@@ -16,6 +16,14 @@
       "name": "support.function.furro"
     },
     {
+      "match": "(7u7).*$",
+      "name": "comment.line.furro"
+    },
+    {
+      "match": "\\b(7u7)\\b",
+      "name": "support.function.furro"
+    },
+    {
       "match": "\\b\\d+\\b",
       "name": "constant.numeric.furro"
     },
