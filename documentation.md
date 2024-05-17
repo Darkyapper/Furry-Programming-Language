@@ -5,6 +5,11 @@
 - **Wait**: This function pauses the execution of the code for the amount of time established, before executing the code under it: Wait 2. This function only admits whole numbers, not decimal.
 - **Hurray_End**: Show the Hit! (a97000), use it when you want to check your code runs okay.
 - **7u7**: A one line comment.
+- **Protogen** This is a somewhat technical functions library to perform operations and tabajos with numbers.
+    - **Protogen.Plus(x, y)** Make a sum with the numbers that are introduced. 
+    - **Protogen.Minus(x, y)** Make a subtraction with the numbers that are introduced 
+    - **Protogen.Times(x, y)** Make a multiplication with the numbers that are introduced
+    - **Protogen.DivBy(x, y)** Make a division with the numbers that are introduced
 
 ## Alerts.
 - **"Hit! (a97000): The code is executed successfully!"** - This alert means that the code was executed without errors.

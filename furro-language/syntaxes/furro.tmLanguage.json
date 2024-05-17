@@ -16,6 +16,10 @@
       "name": "support.function.furro"
     },
     {
+      "match": "\\b(Protogen.Plus|Protogen.DivBy|Protogen.Minus|Protogen.Times)\\b",
+      "name": "keyword.control.furro"
+    },
+    {
       "match": "(7u7).*$",
       "name": "comment.line.furro"
     },
