@@ -14,17 +14,17 @@ def show_res(linea):
     if linea.startswith('Scream'):
         if '"' in linea:
             if linea.count('"') != 2:
-                print("Damn!: La cadena debe estar encerrada entre comillas dobles.")
+                print("Damn! (x0001): Are you trying to scream in the wrong way!")
                 return
             texto = linea.split('"')[1]
             print(texto)
         else:
-            print("Error: La cadena debe estar encerrada entre comillas dobles.")
+            print("Damn! (x0001): Are you trying to scream in the wrong way!")
     elif linea.startswith('Wait'):
         segundos = int(linea[len('Wait '):])
         time.sleep(segundos)
     else:
-        print(f"Comando no reconocido: {linea}")
+        print(f"Damn! (x0000): What the hell means '{linea}' ?")
 
 
 # Ejemplo de uso
